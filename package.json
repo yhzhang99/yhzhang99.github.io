@@ -1,0 +1,42 @@
+{
+  "name": "vue_todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./build/webpack.dev.js",
+    "build": "webpack ---config ./build/webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.2.1",
+    "file-loader": "^6.2.0",
+    "font-awesome": "^4.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^2.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.6",
+    "vue-template": "^1.0.3",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "vue": "^2.6.12"
+  }
+}
